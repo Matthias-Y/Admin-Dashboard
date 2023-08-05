@@ -25,13 +25,20 @@ html {
 }
 
 .side-bar img {
-    filter: invert(100%)
+    filter: invert(100%);
+    height: 26px;
+}
+
+.side-bar a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.side-bar-header img {
+    height: 50px;
 }
 
 .content {
     background-color: blueviolet;
-}
-
-.side-bar-item > img {
-    height: 16px;
 }

@@ -42,7 +42,27 @@ span {
 }
 
 .user-nav {
-    margin-left: 80%;
+    width: 100px;
+    margin-right: 50px;
+    justify-self: right;
+}
+
+.user-actions {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(3, 100px);
+    gap: 15px;
+    justify-content: right;
+    margin-right: 50px;
+}
+
+.user-actions button{
+    background-color: #64748b;
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+    height:30px;
+    width: 100%;
 }
 
 .side-bar {

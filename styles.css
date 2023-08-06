@@ -128,6 +128,7 @@ span {
 .content {
     background-color: rgb(87, 154, 226);
     display: grid;
+    gap: 15px;
     grid-template-columns: 2fr 1fr;
 }
 .projects {
@@ -143,6 +144,7 @@ span {
 .project-header {
     grid-column: 1 / -1;
 }
+
 .project {
     background-color: white;
     border-radius: 10px;
@@ -173,3 +175,37 @@ span {
     justify-self: right;
     padding-right: 10px;
 }
+
+.misc {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+.announcements {
+    padding-right: 15px;
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    gap: 15px;
+}
+
+.announcements h3,
+.announcements p {
+    margin: 0;
+    padding-left: 8px;
+}
+
+.announcements p {
+    color: rgb(148, 148, 148);
+}
+
+.announcement {
+    background-color: white;
+    height: 100%;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+

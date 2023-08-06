@@ -195,7 +195,8 @@ span {
     padding-left: 8px;
 }
 
-.announcements p {
+.announcements p,
+.trend p {
     color: rgb(148, 148, 148);
 }
 
@@ -208,4 +209,34 @@ span {
     justify-content: center;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
+.trend {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: grid;
+    margin-right: 15px;
+}
+
+.trend p,
+.trend h4 {
+    margin: 0px;
+}
+
+.trend > div {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 35px 35px;
+}
+
+div > img {
+    grid-row: 1 / 3;
+    align-self: center;
+    justify-self: center;
+}
+
+div > h4 {
+    align-self: end;
+}
+
 
